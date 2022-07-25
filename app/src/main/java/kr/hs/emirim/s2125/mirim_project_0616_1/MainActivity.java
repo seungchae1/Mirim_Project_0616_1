@@ -12,7 +12,6 @@ public class MainActivity extends TabActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         TabHost host = getTabHost();
         
         TabHost.TabSpec spec1= host.newTabSpec("tab1").setIndicator("김준면");
